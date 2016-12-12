@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  padding-top: 75px;
+  margin: 0 auto; }
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center; }
+
+.markers .todo h4.titre {
+  cursor: pointer;
+  height: 30px;
+  background: #003b88;
+  color: white;
+  border: solid 1px white;
+  line-height: 30px;
+  padding-left: 5px;
+  margin: 0; }
+.markers .todo .delete, .markers .todo .update {
+  float: right;
+  padding: 3px;
+  border: solid 1px white; }
+  .markers .todo .delete a, .markers .todo .update a {
+    text-decoration: none; }
+    .markers .todo .delete a img, .markers .todo .update a img {
+      width: 20px;
+      height: 20px; }
+
+.ajoutMarkers h4#ajout {
+  cursor: pointer;
+  height: 35px;
+  color: white;
+  border: solid 1px white;
+  line-height: 30px;
+  padding-left: 5px;
+  margin: 0; }
